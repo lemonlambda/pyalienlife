@@ -75,7 +75,6 @@ py.on_event(py.events.on_built(), function(event)
 			position = {4, 0}
 		}
 	end
-	game.print(serpent.block(entity.grid.get_contents()))
 	storage.mounts[entity.unit_number] = entity
 end)
 
